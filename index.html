@@ -1,0 +1,1361 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="container"> 
+
+      <header class="row m-t-lg">
+        <h1 class="m-t-lg">Table des matières</h1>
+        <hr>
+        <div class="nav col-md-3">
+          <a href="#barre" class="nav-item list-group-item">Barre de navigation</a>
+          <a href="#boutons" class="list-group-item">Boutons</a>
+          <a href="#alertes" class="list-group-item">Alertes</a>
+          <a href="#progression" class="list-group-item">Barres de progression</a>
+          <a href="#listes" class="list-group-item">Listes groupées</a>
+          <a href="#etiquettes" class="list-group-item">Etiquettes</a>
+          <a href="#cartes" class="list-group-item">Cartes</a>
+          <a href="#typo" class="list-group-item">Typographie</a>
+          <a href="#tableaux" class="list-group-item">Tableaux</a>
+          <a href="#formulaires" class="list-group-item">Formulaires</a>
+          <a href="#pagination" class="list-group-item">Pagination</a>
+          <a href="#jumbotron" class="list-group-item">Jumbotron</a>
+          <a href="#pop" class="list-group-item">Tooltip et Popover</a>
+          <a href="#modale" class="list-group-item">Feuille modale</a>
+        </div>
+      </header>
+
+      <section id="barre">
+        <h1 class="m-t-lg">Barre de navigation</h1>
+        <hr>
+        <nav class="navbar bg-faded m-b">
+          <a class="navbar-brand" href="#">Faded</a>
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Lien 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Menu déroulant
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Lien 1</a>
+                <a class="dropdown-item" href="#">Lien 2</a>
+                <a class="dropdown-item" href="#">Lien 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Lien 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 4</a>
+            </li>
+            <form action="search" method="get" class="form-inline navbar-form pull-right">
+              <div class="input-group">
+                <input type="text" name="search" class="form-control" placeholder="Je cherche...">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-secondary"><span class="fa fa-search"></span> Chercher</button>
+                </span>
+              </div>
+            </form>
+          </ul>
+        </nav>
+        <nav class="navbar bg-primary navbar-dark m-b">
+          <a class="navbar-brand" href="#">Primary</a>
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Lien 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Menu déroulant
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Lien 1</a>
+                <a class="dropdown-item" href="#">Lien 2</a>
+                <a class="dropdown-item" href="#">Lien 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Lien 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 4</a>
+            </li>
+            <form action="search" method="get" class="form-inline navbar-form pull-right">
+              <div class="input-group">
+                <input type="text" name="search" class="form-control" placeholder="Je cherche...">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-secondary"><span class="fa fa-search"></span> Chercher</button>
+                </span>
+              </div>
+            </form>
+          </ul>
+        </nav>
+        <nav class="navbar bg-success navbar-dark m-b">
+          <a class="navbar-brand" href="#">Success</a>
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Lien 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Menu déroulant
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Lien 1</a>
+                <a class="dropdown-item" href="#">Lien 2</a>
+                <a class="dropdown-item" href="#">Lien 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Lien 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 4</a>
+            </li>
+            <form action="search" method="get" class="form-inline navbar-form pull-right">
+              <div class="input-group">
+                <input type="text" name="search" class="form-control" placeholder="Je cherche...">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-secondary"><span class="fa fa-search"></span> Chercher</button>
+                </span>
+              </div>
+            </form>
+          </ul>
+        </nav>
+        <nav class="navbar bg-info navbar-dark m-b">
+          <a class="navbar-brand" href="#">Info</a>
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Lien 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Menu déroulant
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Lien 1</a>
+                <a class="dropdown-item" href="#">Lien 2</a>
+                <a class="dropdown-item" href="#">Lien 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Lien 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 4</a>
+            </li>
+            <form action="search" method="get" class="form-inline navbar-form pull-right">
+              <div class="input-group">
+                <input type="text" name="search" class="form-control" placeholder="Je cherche...">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-secondary"><span class="fa fa-search"></span> Chercher</button>
+                </span>
+              </div>
+            </form>
+          </ul>
+        </nav>
+        <nav class="navbar bg-warning navbar-dark m-b">
+          <a class="navbar-brand" href="#">Warning</a>
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Lien 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Menu déroulant
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Lien 1</a>
+                <a class="dropdown-item" href="#">Lien 2</a>
+                <a class="dropdown-item" href="#">Lien 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Lien 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 4</a>
+            </li>
+            <form action="search" method="get" class="form-inline navbar-form pull-right">
+              <div class="input-group">
+                <input type="text" name="search" class="form-control" placeholder="Je cherche...">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-secondary"><span class="fa fa-search"></span> Chercher</button>
+                </span>
+              </div>
+            </form>
+          </ul>
+        </nav><nav class="navbar bg-danger navbar-dark m-b">
+          <a class="navbar-brand" href="#">Danger</a>
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Lien 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Menu déroulant
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Lien 1</a>
+                <a class="dropdown-item" href="#">Lien 2</a>
+                <a class="dropdown-item" href="#">Lien 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Lien 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 4</a>
+            </li>
+            <form action="search" method="get" class="form-inline navbar-form pull-right">
+              <div class="input-group">
+                <input type="text" name="search" class="form-control" placeholder="Je cherche...">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-secondary"><span class="fa fa-search"></span> Chercher</button>
+                </span>
+              </div>
+            </form>
+          </ul>
+        </nav>
+        <nav class="navbar bg-inverse navbar-dark">
+          <a class="navbar-brand" href="#">Inverse</a>
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Lien 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Menu déroulant
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Lien 1</a>
+                <a class="dropdown-item" href="#">Lien 2</a>
+                <a class="dropdown-item" href="#">Lien 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Lien 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lien 4</a>
+            </li>
+            <form action="search" method="get" class="form-inline navbar-form pull-right">
+              <div class="input-group">
+                <input type="text" name="search" class="form-control" placeholder="Je cherche...">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-secondary"><span class="fa fa-search"></span> Chercher</button>
+                </span>
+              </div>
+            </form>
+          </ul>
+        </nav>
+      </section>
+
+      <section  id="boutons">
+        <h1 class="m-t-lg">Boutons</h1>
+        <hr>
+        <p>
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-secondary">Secondary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-link">Lien</button>
+        </p>
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+              Primary
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+              Secondary
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+              Success
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+              Info
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+              Warning
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+              Danger
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+        </p>
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown"></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown"></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lien 1</a>
+              <a class="dropdown-item" href="#">Lien 2</a>
+              <a class="dropdown-item" href="#">Lien 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lien 4</a>
+            </div>
+          </div>
+         </p>
+        <p>
+          <button type="button" class="btn btn-primary-outline">Primary</button>
+          <button type="button" class="btn btn-secondary-outline">Secondary</button>
+          <button type="button" class="btn btn-success-outline">Success</button>
+          <button type="button" class="btn btn-warning-outline">Warning</button>
+          <button type="button" class="btn btn-danger-outline">Danger</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary btn-lg">Gros bouton</button>
+          <button type="button" class="btn btn-secondary btn-lg">Gros bouton</button>
+          <button type="button" class="btn btn-primary btn-sm">Petit bouton</button>
+          <button type="button" class="btn btn-secondary btn-sm">Petit bouton</button>
+        </p>
+      </section>
+
+      <section id="alertes">
+        <h1 class="m-t-lg">Alertes</h1>
+        <hr>
+        <div class="alert alert-success">
+          <strong>Success</strong> C'est une réussite.
+        </div>
+        <div class="alert alert-info">
+          <strong>Info</strong> C'est une information.
+        </div>
+        <div class="alert alert-warning">
+          <strong>Warning</strong> Attention !
+        </div>
+        <div class="alert alert-danger">
+          <strong>Danger</strong> Ca devient dangereux !
+        </div>
+      </section>
+
+      <section id="progression">
+        <h1 class="m-t-lg">Barres de progression</h1>
+        <hr>
+        <progress class="progress" value="10" max="100">10%</progress>
+        <progress class="progress progress-success" value="25" max="100">25%</progress>
+        <progress class="progress progress-info" value="50" max="100">50%</progress>
+        <progress class="progress progress-warning" value="75" max="100">75%</progress>
+        <progress class="progress progress-danger" value="100" max="100">100%</progress>
+        <progress class="progress progress-striped" value="10" max="100">10%</progress>
+        <progress class="progress progress-striped progress-success" value="25" max="100">25%</progress>
+        <progress class="progress progress-striped progress-info" value="50" max="100">50%</progress>
+        <progress class="progress progress-striped progress-warning" value="75" max="100">75%</progress>
+        <progress class="progress progress-striped progress-danger" value="100" max="100">100%</progress>
+      </section>
+
+      <section id="listes">
+        <h1 class="m-t-lg">Listes groupées</h1>
+        <hr>
+        <div class="row">
+          <ul class="col-md-4 list-group">
+            <li class="list-group-item">Item 1</li>
+            <li class="list-group-item">Item 2</li>
+            <li class="list-group-item">Item 3</li>
+            <li class="list-group-item">Item 4</li>
+            <li class="list-group-item">Item 5</li>
+          </ul>
+          <div class="col-md-4 list-group">
+            <a href="#" class="list-group-item active">Item 1</a>
+            <a href="#" class="list-group-item">Item 2</a>
+            <a href="#" class="list-group-item">Item 3</a>
+            <a href="#" class="list-group-item">Item 4</a>
+            <a href="#" class="list-group-item">Item 5</a>
+          </div>
+          <div class="col-md-4 list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">Titre 1</h4>
+              <p class="list-group-item-text">Contenu de cet item.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Titre 2</h4>
+              <p class="list-group-item-text">Contenu de cet item.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Titre 3</h4>
+              <p class="list-group-item-text">Contenu de cet item.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="etiquettes">
+        <h1 class="m-t-lg">Etiquettes</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-4">
+            <h1><span class="label label-default">H1</span></h1>
+            <h2><span class="label label-default">H2</span></h2>
+            <h3><span class="label label-default">H3</span></h3>
+            <h4><span class="label label-default">H4</span></h4>
+            <h5><span class="label label-default">H5</span></h5>
+            <h6><span class="label label-default">H6</span></h6>
+          </div>
+          <div class="col-md-4">
+            <p><span class="label label-default">Default</span></p>
+            <p><span class="label label-primary">Primary</span></p>
+            <p><span class="label label-success">Success</span></p>
+            <p><span class="label label-info">Info</span></p>
+            <p><span class="label label-warning">Warning</span></p>
+            <p><span class="label label-danger">Danger</span></p>
+          </div>
+          <div class="col-md-4">
+            <p><span class="label label-pill label-default">Default</span></p>
+            <p><span class="label label-pill label-primary">Primary</span></p>
+            <p><span class="label label-pill label-success">Success</span></p>
+            <p><span class="label label-pill label-info">Info</span></p>
+            <p><span class="label label-pill label-warning">Warning</span></p>
+            <p><span class="label label-pill label-danger">Danger</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="cartes">
+        <h1 class="m-t-lg">Cartes</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-inverse card-primary text-center">
+              <div class="card-block">
+                <blockquote class="card-blockquote">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-inverse card-success text-center">
+              <div class="card-block">
+                <blockquote class="card-blockquote">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-inverse card-info text-center">
+              <div class="card-block">
+                <blockquote class="card-blockquote">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-inverse card-warning text-center">
+              <div class="card-block">
+                <blockquote class="card-blockquote">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-inverse card-danger text-center">
+              <div class="card-block">
+                <blockquote class="card-blockquote">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-inversetext-center">
+              <div class="card-block">
+                <blockquote class="card-blockquote">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="typo">
+        <h1 class="m-t-lg">Typographie</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Titre H1</h1>
+            <h2>Titre H2</h2>
+            <h3>Titre H3</h3>
+            <h4>Titre H4</h4>
+            <h5>Titre H5</h5>
+            <h6>Titre H6</h6>
+          </div>
+          <div class="col-md-6">
+            <h1 class="display-4">Display 4</h1>
+            <h1 class="display-3">Display 3</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-1">Display 1</h1>
+          </div>
+        </div>
+        <div class="row m-t-md">
+          <div class="col-md-6">
+            <p>On peut utiliser le marqueur pour  <mark>marquer</mark> un texte.</p>
+            <p><del>Cette ligne peut être considérée comme du texte supprimé.</del></p>
+            <p><s>Cette ligne peut être considérée comme du texte périmé.</s></p>
+            <p><ins>Cette ligne peut être considérée une addition au document.</ins></p>
+            <p><u>Cette ligne apparaîtra soulignée.</u></p>
+            <p><small>Cette ligne est avec du texte de taille réduite.</small></p>
+            <p><strong>Cette ligne est avec du texte en gras.</strong></p>
+            <p><em>Cette ligne est avec du texte en italique.</em></p>
+            <p><abbr title="attribut">Attribut</abbr></p>
+            <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+            <blockquote class="blockquote">
+              <p>Ici c'est une citation simple</p>
+            </blockquote>
+            <blockquote class="blockquote">
+              <p>Ici c'est une citation avec indication de la source.</p>
+              <footer>Je suis <cite title="Source Title">La Source</cite></footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6">
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipiscing elit</li>
+            <li>Integer molestie lorem at massa</li>
+            <li>Facilisis in pretium nisl aliquet</li>
+            <li>Nulla volutpat aliquam velit
+              <ul>
+                <li>Phasellus iaculis neque</li>
+                <li>Purus sodales ultricies</li>
+                <li>Vestibulum laoreet porttitor sem</li>
+                <li>Ac tristique libero volutpat at</li>
+              </ul>
+            </li>
+            <li>Faucibus porta lacus fringilla vel</li>
+            <li>Aenean sit amet erat nunc</li>
+            <li>Eget porttitor lorem</li>
+          </ul>            
+          </div>
+        </div>
+        <div class="row m-t-md">
+          <div class="col-md-12">
+            <dl class="dl-horizontal">
+              <dt class="col-sm-3">Liste de description</dt>
+              <dd class="col-sm-9">Une liste de description est parfaite pour définir des termes.</dd>
+
+              <dt class="col-sm-3">Euismod</dt>
+              <dd class="col-sm-9">Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+              <dd class="col-sm-9 col-sm-offset-3">Donec id elit non mi porta gravida at eget metus.</dd>
+
+              <dt class="col-sm-3">Malesuada porta</dt>
+              <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+              <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+              <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+            </dl>
+          </div>
+        </div>        
+      </section>
+
+      <section id="tableaux">
+        <h1 class="m-t-lg">Tableaux</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Prénom</th>
+                  <th>Nom</th>
+                  <th>Pseudo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>Marc</td>
+                  <td>Dupuis</td>
+                  <td>@dupuis</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>Jacque</td>
+                  <td>Errip</td>
+                  <td>@jack</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Louis</td>
+                  <td>Lumière</td>
+                  <td>@light</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <table class="table table-inverse">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Prénom</th>
+                  <th>Nom</th>
+                  <th>Pseudo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>Marc</td>
+                  <td>Dupuis</td>
+                  <td>@dupuis</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>Jacque</td>
+                  <td>Errip</td>
+                  <td>@jack</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Louis</td>
+                  <td>Lumière</td>
+                  <td>@light</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row m-t-md">
+          <div class="col-md-6">
+            <table class="table">
+              <thead class="thead-inverse">
+                <tr>
+                  <th>#</th>
+                  <th>Prénom</th>
+                  <th>Nom</th>
+                  <th>Pseudo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>Marc</td>
+                  <td>Dupuis</td>
+                  <td>@dupuis</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>Jacque</td>
+                  <td>Errip</td>
+                  <td>@jack</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Louis</td>
+                  <td>Lumière</td>
+                  <td>@light</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <table class="table">
+              <thead class="thead-default">
+                <tr>
+                  <th>#</th>
+                  <th>Prénom</th>
+                  <th>Nom</th>
+                  <th>Pseudo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>Marc</td>
+                  <td>Dupuis</td>
+                  <td>@dupuis</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>Jacque</td>
+                  <td>Errip</td>
+                  <td>@jack</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Louis</td>
+                  <td>Lumière</td>
+                  <td>@light</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row m-t-md">
+          <div class="col-md-6">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Prénom</th>
+                  <th>Nom</th>
+                  <th>Pseudo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>Marc</td>
+                  <td>Dupuis</td>
+                  <td>@dupuis</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>Jacque</td>
+                  <td>Errip</td>
+                  <td>@jack</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Louis</td>
+                  <td>Lumière</td>
+                  <td>@light</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Prénom</th>
+                  <th>Nom</th>
+                  <th>Pseudo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>Marc</td>
+                  <td>Dupuis</td>
+                  <td>@dupuis</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>Jacque</td>
+                  <td>Errip</td>
+                  <td>@jack</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Louis</td>
+                  <td>Lumière</td>
+                  <td>@light</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row m-t-md">
+          <div class="col-md-6">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Prénom</th>
+                  <th>Nom</th>
+                  <th>Pseudo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>Marc</td>
+                  <td>Dupuis</td>
+                  <td>@dupuis</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>Jacque</td>
+                  <td>Errip</td>
+                  <td>@jack</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Louis</td>
+                  <td>Lumière</td>
+                  <td>@light</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <table class="table table-sm">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Prénom</th>
+                  <th>Nom</th>
+                  <th>Pseudo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>Marc</td>
+                  <td>Dupuis</td>
+                  <td>@dupuis</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>Jacque</td>
+                  <td>Errip</td>
+                  <td>@jack</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Louis</td>
+                  <td>Lumière</td>
+                  <td>@light</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row m-t-md">
+          <div class="col-md-6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Prénom</th>
+                  <th>Nom</th>
+                  <th>Pseudo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-active">
+                  <th>1</th>
+                  <td>Marc</td>
+                  <td>Dupuis</td>
+                  <td>@dupuis</td>
+                </tr>
+                <tr class="table-success">
+                  <th>2</th>
+                  <td>Jacque</td>
+                  <td>Errip</td>
+                  <td>@jack</td>
+                </tr>
+                <tr class="table-warning">
+                  <th>3</th>
+                  <td>Louis</td>
+                  <td>Lumière</td>
+                  <td>@light</td>
+                </tr>
+                <tr class="table-danger">
+                  <th>4</th>
+                  <td>Christian</td>
+                  <td>Perberd</td>
+                  <td>@peper</td>
+                </tr>
+                <tr class="table-info">
+                  <th>5</th>
+                  <td>Arnaud</td>
+                  <td>Clamier</td>
+                  <td>@arno</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th class="table-active">Prénom</th>
+                  <th class="table-success">Nom</th>
+                  <th class="table-warning">Pseudo</th>
+                  <th class="table-danger">Age</th>
+                  <th class="table-info">Connexions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td class="table-active">Marc</td>
+                  <td class="table-success">Dupuis</td>
+                  <td class="table-warning">@dupuis</td>
+                  <td class="table-danger">25</td>
+                  <td class="table-info">235</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td class="table-active">Jacque</td>
+                  <td class="table-success">Errip</td>
+                  <td class="table-warning">@jack</td>
+                  <td class="table-danger">21</td>
+                  <td class="table-info">23</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td class="table-active">Louis</td>
+                  <td class="table-success">Lumière</td>
+                  <td class="table-warning">@light</td>
+                  <td class="table-danger">45</td>
+                  <td class="table-info">111</td>
+                </tr>
+                <tr>
+                  <th>4</th>
+                  <td class="table-active">Christian</td>
+                  <td class="table-success">Perberd</td>
+                  <td class="table-warning">@peper</td>
+                  <td class="table-danger">18</td>
+                  <td class="table-info">5698</td>
+                </tr>
+                <tr>
+                  <th>5</th>
+                  <td class="table-active">Arnaud</td>
+                  <td class="table-success">Clamier</td>
+                  <td class="table-warning">@arno</td>
+                  <td class="table-danger">33</td>
+                  <td class="table-info">320</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="formulaires">
+        <h1 class="m-t-lg">Formulaires</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <form>
+              <fieldset class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Votre Email ici">
+                <small class="text-muted">Nous ne divulguons jamais les Email.</small>
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="exampleInputPassword1">Mot de passe</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="exampleSelect1">Exemple de sélection simple</label>
+                <select class="form-control" id="exampleSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="exampleSelect2">Exemple de sélection multiple</label>
+                <select multiple class="form-control" id="exampleSelect2">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="exampleTextarea">Exemple de textarea</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="exampleInputFile">Envoi de fichier</label>
+                <input type="file" class="form-control-file" id="exampleInputFile">
+                <small class="text-muted">Veuillez choisir un fichier à envoyer</small>
+              </fieldset>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  Option sélectionnée
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Option non sélectionnée
+                </label>
+              </div>
+              <div class="radio disabled">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                  Option désactivée
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Case à cocher
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="form-group has-success">
+                <label class="control-label" for="inputSuccess1">Entrée avec réussite</label>
+                <input type="text" class="form-control form-control-success" id="inputSuccess1">
+              </div>
+              <div class="form-group has-warning">
+                <label class="control-label" for="inputWarning1">Entrée avec avertissement</label>
+                <input type="text" class="form-control form-control-warning" id="inputWarning1">
+              </div>
+              <div class="form-group has-error">
+                <label class="control-label" for="inputError1">Entrée avec erreur</label>
+                <input type="text" class="form-control form-control-error" id="inputError1">
+              </div>
+
+              <div class="has-success">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" id="checkboxSuccess" value="option1">
+                    Case à cocher avec réussite
+                  </label>
+                </div>
+              </div>
+              <div class="has-warning">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" id="checkboxWarning" value="option1">
+                    Case à cocher avec avertissement
+                  </label>
+                </div>
+              </div>
+              <div class="has-error">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" id="checkboxError" value="option1">
+                    Case à cocher avec erreur
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>  
+      </section>
+
+      <section id="pagination">
+        <h1 class="m-t-lg">Pagination</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <nav>
+              <ul class="pagination pagination-lg">
+                <li><a href="#"><span aria-hidden="true">&laquo;</span></a></li>
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li class="disabled"><a href="#">5</a></li>
+                <li><a href="#">&raquo</span></a></li>
+              </ul>
+            </nav>
+            <nav>
+              <ul class="pagination">
+                <li><a href="#"><span aria-hidden="true">&laquo;</span></a></li>
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li class="disabled"><a href="#">5</a></li>
+                <li><a href="#">&raquo</span></a></li>
+              </ul>
+            </nav>
+            <nav>
+              <ul class="pagination pagination-sm">
+                <li><a href="#"><span aria-hidden="true">&laquo;</span></a></li>
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li class="disabled"><a href="#">5</a></li>
+                <li><a href="#">&raquo</span></a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-6">
+            <ol class="breadcrumb">
+              <li class="active">Accueil</li>
+            </ol>
+            <ol class="breadcrumb">
+              <li><a href="#">Accueil</a></li>
+              <li class="active">Catégories</li>
+            </ol>
+            <ol class="breadcrumb" style="margin-bottom: 5px;">
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#">Catégories</a></li>
+              <li class="active">Livres</li>
+            </ol>
+            <nav>
+              <ul class="pager">
+                <li><a href="#">Précédent</a></li>
+                <li><a href="#">Suivant</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <ul class="pager">
+                <li class="pager-prev"><a href="#">Ancien</a></li>
+                <li class="pager-next"><a href="#">Nouveau</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section id="jumbotron">
+        <h1 class="m-t-lg">Jumbotron</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="jumbotron">
+              <h1 class="display-3">Titre</h1>
+              <p class="lead">Un simple jumbotron</p>
+              <hr class="jumbotron-hr m-y-md">
+              <p>Contenu</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pop">
+        <h1 class="m-t-lg">Tooltip et Popover</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip en haut">
+              Tooltip en haut
+            </button>
+            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip à droite">
+              Tooltip à droite
+            </button>
+            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip en bas">
+              Tooltip en bas
+            </button>
+            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip à gauche">
+              Tooltip à gauche
+            </button>
+          </div>
+          <div class="col-md-12 m-t-md">
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+              Popover en haut
+            </button>
+
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+              Popover à droite
+            </button>
+
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+            sagittis lacus vel augue laoreet rutrum faucibus.">
+              Popover en bas
+            </button>
+
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+              Popover à gauche
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="modale" class="m-b-lg">
+        <h1 class="m-t-lg">Feuille modale</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="modal" style="display: block; position:relative">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                      <span>&times;</span>
+                    </button>
+                    <h4 class="modal-title">Titre</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Contenu</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Enregistrer</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.0/js/tether.min.js"></script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover();
+        $('a').on('click', function(e) {
+          e.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(this.hash).offset().top
+          }, 1000, function(){
+            window.location.hash = hash;
+          });
+        });
+      });
+    </script>
+
+  </body>
+</html>
