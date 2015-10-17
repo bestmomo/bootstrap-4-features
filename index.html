@@ -30,6 +30,7 @@
             <a href="#pagination" class="list-group-item">Pagination</a>
             <a href="#jumbotron" class="list-group-item">Jumbotron</a>
             <a href="#pop" class="list-group-item">Tooltip et Popover</a>
+            <a href="#onglets" class="list-group-item">Onglets</a>
             <a href="#modale" class="list-group-item">Feuille modale</a>
           </div>
         </div>
@@ -1305,6 +1306,95 @@
             <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
               Popover à gauche
             </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="onglets" class="m-b-lg">
+        <h1 class="m-t-lg">Onglets</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#p1" data-toggle="tab">Onglet 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#p2" data-toggle="tab">Onglet 2</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="p1">Panneau 1</div>
+              <div class="tab-pane" id="p2">Panneau 2</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="#p3" data-toggle="pill">Onglet 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#p4" data-toggle="pill">Onglet 2</a>
+              </li>
+            </ul>
+            <div class="clearfix"></div>
+            <div class="tab-content">
+              <div class="tab-pane active" id="p3">Panneau 1</div>
+              <div class="tab-pane" id="p4">Panneau 2</div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-t-md">
+          <div class="col-md-6">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#accueil1" data-toggle="tab">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Livres</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#policiers1" data-toggle="tab">Policiers</a>
+                  <a class="dropdown-item" href="#romans1" data-toggle="tab">Romans</a>
+                  <a class="dropdown-item" href="#contes1" data-toggle="tab">Contes</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#temoignages1" data-toggle="tab">Témoignages</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="accueil1">Texte d'accueil</div>
+              <div class="tab-pane" id="temoignages1">Tous les témoignages</div>
+              <div class="tab-pane" id="policiers1">Tous les livres policiers</div>
+              <div class="tab-pane" id="romans1">Tous les romans</div>
+              <div class="tab-pane" id="contes1">Tous les contes</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="#accueil2" data-toggle="pill">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Livres</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#policiers2" data-toggle="pill">Policiers</a>
+                  <a class="dropdown-item" href="#romans2" data-toggle="pill">Romans</a>
+                  <a class="dropdown-item" href="#contes2" data-toggle="pill">Contes</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#temoignages2" data-toggle="pill">Témoignages</a>
+              </li>
+            </ul>
+            <div class="clearfix"></div>
+            <div class="tab-content">
+              <div class="tab-pane active" id="accueil2">Texte d'accueil</div>
+              <div class="tab-pane" id="temoignages2">Tous les témoignages</div>
+              <div class="tab-pane" id="policiers2">Tous les livres policiers</div>
+              <div class="tab-pane" id="romans2">Tous les romans</div>
+              <div class="tab-pane" id="contes2">Tous les contes</div>
+            </div>
           </div>
         </div>
       </section>
